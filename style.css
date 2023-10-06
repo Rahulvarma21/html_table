@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+* {
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background-color: #FBE4E4;
+    
+}
+table{
+    width: 1000px;
+    height: 400px;
+    border-spacing: 40px;
+    position: relative;
+    left: 260px;
+    top: 50px;
+    border-bottom:3px solid red;
+    bottom: 10px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+table,th,td{
+    border: none 1px solid black;
+    border-collapse: collapse;
+}  
+th,td{
+    text-align: center;
+}
+.kalvium{
+    position:relative;
+    left: 20px;
+    top: 20px
+    
+}
+.logo{
+    position: relative;
+    left: 900px;
+    top:20px;
+}
+caption{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+p{
+    position: relative;
+    left: 1215px;
+    bottom:25px;
+    color: rgb(214, 7, 7);
+    width: 0px;
+}
+p1{
+    position: relative;
+    left: 1320px;
+    bottom:60px;
+    color: rgb(214, 7, 7);
+    width: 0px;
+}
+th{
+    background-color: rgb(226, 8, 8);
+    color: white;
+}
+.odd{
+    background-color: white;
+}
+.even{
+    background-color: #f3f3f3;
+}
+.l{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
